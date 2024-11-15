@@ -1,3 +1,3 @@
 # Snake Game
 
-This game was made with chatGPT.
+This game was made with ChatGPT.
