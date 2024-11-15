@@ -134,7 +134,7 @@ const App = () => {
       case 'ArrowRight':
         if (direction.x === 0) setDirection({ x: 1, y: 0 });
         break;
-          case 'w':
+      case 'w':
         if (direction.y === 0) setDirection({ x: 0, y: -1 });
         break;
       case 's':
