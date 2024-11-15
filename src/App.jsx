@@ -122,7 +122,18 @@ const App = () => {
   const handleKeyDown = (event) => {
     event.preventDefault();
     switch (event.key) {
-    
+      case 'ArrowUp':
+        if (direction.y === 0) setDirection({ x: 0, y: -1 });
+        break;
+      case 'ArrowDown':
+        if (direction.y === 0) setDirection({ x: 0, y: 1 });
+        break;
+      case 'ArrowLeft':
+        if (direction.x === 0) setDirection({ x: -1, y: 0 });
+        break;
+      case 'ArrowRight':
+        if (direction.x === 0) setDirection({ x: 1, y: 0 });
+        break;
       case 'w':
         if (direction.y === 0) setDirection({ x: 0, y: -1 });
         break;
